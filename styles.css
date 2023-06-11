@@ -2,6 +2,11 @@ body {
     margin: 0 15px;
 }
 
+a {
+    color: rgb(163, 162, 162);
+    text-decoration: none;
+}
+
 ul {
     list-style: none;
 }
