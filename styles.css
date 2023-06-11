@@ -1,3 +1,39 @@
-*{
-    margin: 0 10px;
+body {
+    margin: 0 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+.header-container {
+    background-color: rgb(34, 34, 42);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: x-large;
+}
+
+.header-menu {
+    display: flex;
+}
+
+.train {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.train-item {
+    font-size: larger;
+    font-weight: 300;
+    color: rgb(163, 162, 162);
 }
